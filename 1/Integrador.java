@@ -32,7 +32,7 @@ public class Integrador {
         int edad = scanner.nextInt();
         System.out.print("Curso: ");
         String curso = scanner.nextLine();
-        Estudiante estudiante = new Estudiante(nombre, edad, curso);
+        Estudiante estudiante = new Estudiante();
 
         
         System.out.println("\n--- DETALLES INGRESADOS ---");

@@ -1,11 +1,12 @@
-//Intenta crear un método static que intente utilizar this y observa los errores de compilación.
+public class CodigoError_Solu {
+    private static String marca = "Lexus";
 
-public class CodigoError {
-    private String marca ="Lexus";
-
-    public static void mostrarMarca(){
-        System.out.println("La marca del vehiculo es:" + this.marca);
+    public static void mostrarMarca() {
+        System.out.println("La marca del vehículo es: " + marca); 
     }
-    
+
+    public static void main(String[] args) {
+        mostrarMarca();
+    }
 }
 
